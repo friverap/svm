@@ -1,0 +1,10 @@
+&svm_Input
+s1            = 1.0
+s2            = 3.0
+gamma         = 1.0
+tol_cj        = 1.0d-10
+kernel_type    = 'RBF' !polinomial,RBF, fourier
+svm_type      = 'regression'    !classification, regression
+action        = 'prediction'    ! training, prediction
+/
+
